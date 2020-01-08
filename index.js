@@ -14,7 +14,7 @@ const fi = (function() {
     },
     
     map: function(collection, iteratee) {
-
+    
     },
 
     reduce: function() {
