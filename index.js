@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function(collection, iteratee) {
-    const 
+    const newCollection = 
     },
 
     map: function() {
