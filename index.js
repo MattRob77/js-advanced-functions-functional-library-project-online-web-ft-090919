@@ -5,9 +5,14 @@ const fi = (function() {
     },
 
     each: function(collection, iteratee) {
-    const newCollection = 
-    },
+      const newCollection = (collection instanceof Array) ? collection.slice() : Object.values(collection)
 
+      for (let idx = 0; idx < newCollection.length; idx++)
+        iteratee(newCollection[idx])
+
+      return collection
+    },
+    
     map: function() {
 
     },
